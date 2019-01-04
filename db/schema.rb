@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.integer "price"
     t.text "image_url"
-    t.text "size"
+    t.string "size"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
