@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.text "location"
     t.integer "costume_inventory"
+    t.integer "employees_count"
   end
 
   create_table "costumes", force: :cascade do |t|
