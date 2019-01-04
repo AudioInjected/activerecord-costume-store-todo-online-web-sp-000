@@ -10,5 +10,5 @@ class Costume < ActiveRecord::Base
     )
   SQL
 =end   
-  ActiveRecord::Base.connection.execute(sql)
+ # ActiveRecord::Base.connection.execute(sql)
 end 
