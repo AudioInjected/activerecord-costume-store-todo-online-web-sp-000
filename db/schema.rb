@@ -31,4 +31,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "updated_at"
   end
 
+  create_table "haunted_houses", force: :cascade do |t|
+    t.string "name"
+  end
+
 end
