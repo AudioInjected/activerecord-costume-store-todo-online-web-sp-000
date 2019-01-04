@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "costumes", force: :cascade do |t|
     t.string "name"
-    t.float "price"
+    t.integer "price"
   end
 
 end
