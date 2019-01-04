@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
+    t.text "opening_time"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
