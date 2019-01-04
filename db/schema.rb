@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "costume_stores", force: :cascade do |t|
     t.string "name"
-    t.string "location"
+    t.text "location"
   end
 
   create_table "costumes", force: :cascade do |t|
