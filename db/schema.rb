@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.integer "price"
     t.text "image_url"
-    t.string "size"
+    t.text "size"
   end
 
 end
