@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.text "location"
     t.integer "costume_inventory"
     t.integer "num_of_employees"
+    t.boolean "still_in_business"
   end
 
   create_table "costumes", force: :cascade do |t|
